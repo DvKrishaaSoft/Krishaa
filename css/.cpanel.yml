@@ -1,5 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/r318pasw7y90/public_html/dev/wp-content/themes/Krishaa/css
-    - /bin/cp * $DEPLOYPATH
-   
