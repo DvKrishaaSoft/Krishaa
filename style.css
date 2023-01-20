@@ -1,0 +1,15 @@
+/*
+Theme Name:     Krishaa
+Description:    Web design and development services. expert in Wordpress..
+Author:         KK patil
+Template:       Divi
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+
+@import url("css/global.css");
+@import url("css/main-style.css");
+@import url("css/responsive.css");
+@import url("css/custom-style.css");

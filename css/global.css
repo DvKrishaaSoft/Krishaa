@@ -1,0 +1,99 @@
+canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+::-moz-selection {
+	color: inherit;
+	background: transparent;
+}
+::selection {
+	color: inherit;
+	background: transparent;
+}
+* {
+	box-sizing: border-box;
+}
+html.pum-open.pum-open-overlay.pum-open-scrollable body > *[aria-hidden] {
+	padding-right: 0 !important;
+}
+html {
+	overflow-x: hidden !important;
+}
+body {
+	font-size: 16px;
+	color: #48565a;
+	line-height: 1.6;
+	font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+	font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #212d31;
+	line-height: 1.2;
+}
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+/*welcome popup*/
+
+div#popmake-699 {
+	max-width: 750px !important;
+	top: 50% !important;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	/* margin: auto !important; */
+}
+.txt-welcm ul {
+	list-style: none;
+}
+.txt-welcm ul li {
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-right: 1px solid;
+}
+.txt-welcm ul li:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+.txt-welcm ul li:first-child {
+	padding-left: 0;
+}
+div#welcome-bg .txt-welcm h2 {
+	margin-bottom: 15px;
+	font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+	font-weight: bold;
+}
+#popmake-699 button.pum-close.popmake-close {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	font-size: 20px;
+	display: none;
+}
+/*end of welcome popup*/
+
+a.vp-pagination__load-more {
+	font-size: 18px;
+	letter-spacing: 1px;
+	border: 2px solid #fbb03b !important;
+	background: transparent;
+	color: #fbb03b !important;
+	text-transform: uppercase;
+	padding: 15px 30px !important;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-top: 30px;
+}
