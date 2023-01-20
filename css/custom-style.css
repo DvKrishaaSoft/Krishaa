@@ -31,7 +31,7 @@ display:none
 img.foot-icon {
 width:20px;
 padding-right:5px;
-margin-bottom:-2px
+margin-bottom:-2px;
 margin-right: 8px;
 }
 
@@ -247,8 +247,6 @@ transform:         translateY(-15px)
 .tech-icons .et_pb_css_mix_blend_mode_passthrough {
 animation-duration:1s;
 animation-fill-mode:both;
--webkit-animation-timing-function:ease-in-out!important;
--webkit-animation-iteration-count:infinite
 }
 
 .tech-icons .et_pb_css_mix_blend_mode_passthrough:hover {
@@ -540,6 +538,3 @@ width: 180px !important;
 }
 
 
-.abs{
-    
-}
